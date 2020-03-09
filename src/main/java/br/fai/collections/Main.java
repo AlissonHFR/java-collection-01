@@ -38,6 +38,15 @@ public class Main {
 			System.out.println("O item da lista eh: " + item);
 		}
 		
+		lista.add("item adicionado automaticamente 01");
+		lista.add("item adicionado automaticamente 02");
+		
+		lista.remove(1);
+		lista.remove(1);
+		
+		for(String item: lista) {
+			System.out.println("Novos valores: "+ item);
+		}
 		
 	}
 	
